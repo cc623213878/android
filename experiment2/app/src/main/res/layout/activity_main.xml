@@ -1,289 +1,360 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="#000000"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
     <LinearLayout
-        android:id="@+id/1"
-        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <LinearLayout
-            android:id="@+id/l_1"
+            android:id="@+id/a_1"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
+                android:gravity="center"
                 android:text="One One"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/l_2"
+            android:id="@+id/a_2"
             android:layout_width="190dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
+                android:gravity="center"
                 android:text="One Two"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/l_3"
+            android:id="@+id/a_3"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
+                android:gravity="center"
                 android:text="One Three"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/l_4"
+            android:id="@+id/a_4"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
+                android:gravity="center"
                 android:text="One Four"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/2"
-        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <LinearLayout
-            android:id="@+id/2_1"
+            android:id="@+id/b_1"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Two One"
+                android:gravity="center"
+                android:text="One One"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/2_2"
+            android:id="@+id/b_2"
             android:layout_width="190dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Two Two"
+                android:gravity="center"
+                android:text="One Two"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/2_3"
+            android:id="@+id/b_3"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Two Three"
+                android:gravity="center"
+                android:text="One Three"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/2_4"
+            android:id="@+id/b_4"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Two Four"
+                android:gravity="center"
+                android:text="One Four"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/3"
-        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <LinearLayout
-            android:id="@+id/3_1"
+            android:id="@+id/c_1"
             android:layout_width="160dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Three One"
+                android:gravity="center"
+                android:text="One One"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/3_2"
+            android:id="@+id/c_2"
             android:layout_width="160dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Three Two"
+                android:gravity="center"
+                android:text="One Two"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/3_3"
+            android:id="@+id/c_3"
             android:layout_width="160dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Three Three"
+                android:gravity="center"
+                android:text="One Three"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/3_4"
+            android:id="@+id/c_4"
             android:layout_width="160dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Three Four"
+                android:gravity="center"
+                android:text="One Four"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/4"
-        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <LinearLayout
-            android:id="@+id/4_1"
+            android:id="@+id/d_1"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Four One"
+                android:gravity="center"
+                android:text="One One"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/4_2"
+            android:id="@+id/d_2"
             android:layout_width="190dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Four Two"
+                android:gravity="center"
+                android:text="One Two"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/4_3"
+            android:id="@+id/d_3"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Four Three"
+                android:gravity="center"
+                android:text="One Three"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
+
         <LinearLayout
-            android:id="@+id/4_4"
+            android:id="@+id/d_4"
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="3dp"
-            android:layout_margin="5dp"
-            android:background="#cccccc">
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cccccc"
+            android:padding="3dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#000000"
-                android:text="Four Four"
+                android:gravity="center"
+                android:text="One Four"
                 android:textColor="#ccc"
-                android:textSize="25dp"
-                android:gravity="center"/>
+                android:textSize="25dp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
