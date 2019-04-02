@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="ANDROID APP"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:background="#fff200"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Password"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Cancel_button"
+            android:layout_width="80dip"
+            android:layout_height="80dp"
+            android:text="Cancel"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/Sign_button"
+            android:layout_width="80dip"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:text="Sign in"
+            style="?android:attr/buttonBarButtonStyle"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="com.chchyu.ui.MainActivity">
+	<item
+		android:id="@+id/mune_text_size"
+		android:orderInCategory="100"
+		android:title="字体大小">
+		<menu>
+		<item
+			android:id="@+id/mune_text_size_10"
+			android:orderInCategory="100"
+			android:title="10" />
+		<item
+			android:id="@+id/mune_text_size_16"
+			android:orderInCategory="100"
+			android:title="16" />
+		<item
+			android:id="@+id/mune_text_size_20"
+			android:orderInCategory="100"
+			android:title="20" />
+		</menu>
+	</item>
+	<item
+		android:id="@+id/mune_toast"
+		android:orderInCategory="100"
+		android:title="普通菜单项" />
+	<item
+		android:id="@+id/mune_text_color"
+		android:orderInCategory="100"
+		android:title="字体颜色" >
+		<menu>
+		<item
+			android:id="@+id/mune_text_color_red"
+			android:orderInCategory="100"
+			android:title="红色" />
+		<item
+			android:id="@+id/mune_text_color_black"
+			android:orderInCategory="100"
+			android:title="黑色" />
+		</menu>
+	</item>
+</menu>
