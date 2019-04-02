@@ -3,22 +3,22 @@
 ### 1.Android ListView的用法
 
 实验的四个布局都写在一个应用中，通过菜单切换到不同的布局
-![1](img\2.png)
+![1](img/2.png)
 
 ​	利用SimpleAdapter实现如下界面效果
 
-![1](img\1.png)
+![1](img/1.png)
 
 ### 2.创建自定义布局的AlertDialog
-![1](img\3.png)
+![1](img/3.png)
 
 ### 3.使用XML定义菜单
-![1](img\5.png)
-![1](img\7.png)
+![1](img/5.png)
+![1](img/7.png)
 
 ### 4.创建上下文操作模式(ActionMode)的上下文菜单
 注：实现删除选项后颜色没有变回来，且单击时还是会选中
 未选中时
-![1](img\8.png)
+![1](img/8.png)
 长按选中时
-![1](img\9.png)
+![1](img/9.png)
