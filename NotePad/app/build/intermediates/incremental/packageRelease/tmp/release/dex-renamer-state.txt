@@ -1,0 +1,4 @@
+#Sun May 19 19:13:06 CST 2019
+base.0=F\:\\android\\NotePad\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex
