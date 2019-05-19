@@ -33,32 +33,32 @@
 
 改变标题
 
-![img (README.assets/img (1).png)](新建文件夹/img (1).png)
+![img(README.assets/img (1).png)](README.assets/img (1).png)
 
 菜单
 
-![img (README.assets/img (2).png)](新建文件夹/img (2).png)
+![img (README.assets/img (2).png)](README.assets/img (2).png)
 
 删除
 
-![img (README.assets/img (3).png)](新建文件夹/img (3).png)
+![img (README.assets/img (3).png)](README.assets/img (3).png)
 
 编辑标题
 
-![img (README.assets/img (4).png)](新建文件夹/img (4).png)
+![img (README.assets/img (4).png)](README.assets/img (4).png)
 
 列表排序规则
 
-![img (README.assets/img (6).png)](新建文件夹/img (6).png)
+![img (README.assets/img (6).png)](README.assets/img (6).png)
 
 新建
 
-![img (README.assets/img (7).png)](新建文件夹/img (7).png)
+![img (README.assets/img (7).png)](README.assets/img (7).png)
 
 保存
 
-![img (README.assets/img (8).png)](新建文件夹/img (8).png)
+![img (README.assets/img (8).png)](README.assets/img (8).png)
 
 便签搜索
 
-![img (README.assets/img (11).png)](新建文件夹/img (11).png)
+![img (README.assets/img (11).png)](README.assets/img (11).png)
